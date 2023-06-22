@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 20px;
+}
+
+.h-logo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.h-logo img {
+    width: 120px;
+    margin: 20px auto;  
+}
+
+.h-logo h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cc-intro {
+    height: 100vh;
+    background-image: url("../media/abstract_low_poly_banner_design_1301.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    box-shadow: inset 0px -50vh 100px rgba(0, 0, 0, 0.555);
+}
+
+.cc-sobre {
+    height: 100vh;
+    background-color: #fff;
+    color: #131313;
+    margin: auto;
+}
+
+.cc-sobre h1 {
+    border-bottom: 1px solid black;
+}
+
+.card h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 10%;
+    padding-top: 5%;
+}
+
+.cc-infos {
+    height: 100vh;
+    background-color: #131313;
+}
+
+.cc-infos h1 {
+    border-bottom: 1px solid #fff;
+}
