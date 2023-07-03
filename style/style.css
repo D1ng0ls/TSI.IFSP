@@ -44,7 +44,6 @@ header {
 }
 
 .cc-sobre, .cc-cpa, .cc-gestao {
-    height: 100vh;
     background-color: #fff;
     color: #131313;
     margin: auto;
@@ -56,6 +55,7 @@ header {
 
 .card {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .card h1 {
@@ -109,7 +109,6 @@ td {
 }
 
 .cc-nde {
-    height: 100vh;
     background-color: #fff;
     color: #131313;
     margin: auto;
