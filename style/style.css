@@ -35,7 +35,7 @@ header {
 .cc-intro {
     height: 100vh;
     background-image: url("../media/abstract_low_poly_banner_design_1301.jpg");
-    background-position: center top;
+    background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,15 +43,19 @@ header {
     box-shadow: inset 0px -50vh 100px rgba(0, 0, 0, 0.555);
 }
 
-.cc-sobre {
+.cc-sobre, .cc-cpa, .cc-gestao {
     height: 100vh;
     background-color: #fff;
     color: #131313;
     margin: auto;
 }
 
-.cc-sobre h1 {
+.cc-sobre h1, .cc-cpa h1, .cc-gestao h1 {
     border-bottom: 1px solid black;
+}
+
+.card {
+    min-height: 100vh;
 }
 
 .card h1 {
@@ -60,11 +64,73 @@ header {
     padding-top: 5%;
 }
 
-.cc-infos {
-    height: 100vh;
-    background-color: #131313;
+.card p {
+    margin: 0 10%;
+    padding-top: 1%;
+    font-weight: 600;
 }
 
-.cc-infos h1 {
+b {
+    font-weight: 900;
+    color: rgb(109, 31, 187);
+    text-decoration: underline;
+}
+
+.cc-infos, .cc-colegiado , .cc-corpo {
+    background-color: #131313;
+    padding-bottom: 5%;
+}
+
+.cc-infos h1, .cc-colegiado h1, .cc-corpo h1 {
     border-bottom: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 54, 54);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 10%;
+    padding-top: 3%;
+}
+
+td {
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+.cc-gestao td{
+    border: 1px solid rgba(0, 0, 0, 0.596);
+}
+
+.cc-nde {
+    height: 100vh;
+    background-color: #fff;
+    color: #131313;
+    margin: auto;
+}
+
+.cc-nde h1 {
+    border-bottom: 1px solid black;
+}
+
+.card ul {
+    margin: 0 10%;
+    padding-top: 1%;
+    font-weight: 600;
+}
+
+.card li {
+    margin: 0.5%;
+}
+
+@media screen and (max-width: 375px) {
+    .table {
+        overflow: scroll;
+    }
 }
